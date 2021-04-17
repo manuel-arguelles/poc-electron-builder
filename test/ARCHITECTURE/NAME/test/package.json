@@ -1,0 +1,18 @@
+{
+    "name": "test-bug",
+    "version": "0.1.1",
+    "description": "Just a simple proof of concept.",
+    "maintainer": "myself",
+    "main": "src/main.js",
+    "scripts": {
+        "start": "electron .",
+        "dist:linux": "electron-builder --linux --config electron-builder.config.json"
+    },
+    "author": "myself",
+    "license": "ISC",
+    "homepage": "http://example.com",
+    "devDependencies": {
+        "electron": "^10.1.4",
+        "electron-builder": "^22.9.1"
+    }
+}

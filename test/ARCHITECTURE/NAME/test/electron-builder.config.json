@@ -1,0 +1,16 @@
+{
+    "productName": "test-bug",
+    "asar": true,
+    "linux": {
+        "executableName": "test-bug",
+        "target": [
+            {
+                "target": "deb",
+                "arch": "x64"
+            }
+        ],
+        "category": "Utility",
+        "vendor": "myself",
+        "maintainer": "myself",
+    }
+}
